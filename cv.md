@@ -2,7 +2,7 @@
 
 ***
 #### *Contact Info:*
-- mayak.asd@gmail.com
+- [mayak.asd@gmail.com](mailto:mayak.asd@gmail.com)
 - [Telegram](https://t.me/aliamor/)
 - [facebook](https://www.facebook.com/alinmoraa/)
 - [github](https://github.com/aliamora)
