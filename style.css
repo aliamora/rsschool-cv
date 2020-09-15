@@ -1,0 +1,50 @@
+body {
+    background-image: url(./img/background.png);
+    background-repeat: no-repeat; 
+    margin-left: 30%;
+    margin-right: 30%;
+    font-family: 'Architects Daughter', cursive;
+}
+header {
+    text-align: center;  
+}
+
+h1 {
+     margin: 0 auto;
+}
+
+.picture {
+    width: 220px;
+    border-radius: 150px;
+}
+
+.navbar ul {
+    display: flex;
+    list-style-type: none; 
+    width: 459px;
+    justify-content: space-between;
+}
+
+.navbar ul li a:link {
+    display: flex;
+    width: 100px;
+    color: #000;
+    border-color:  #696969;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    
+}
+
+.navbar ul li a:hover {
+    border-radius: 60px;
+    border: 3px solid  #696969;
+}
+
+#panda {
+    width: 215px;
+    position: fixed;
+    top: 450px;
+    left: 0px;
+}
+
