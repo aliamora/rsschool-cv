@@ -1,11 +1,13 @@
 body {
-    background-image: url(./img/background.png);
-    background-repeat: no-repeat; 
-    margin-left: 30%;
-    margin-right: 30%;
-    font-family: 'Architects Daughter', cursive;
+    display: block;
+    width: 725px;
+    margin: 0 auto;
+    background-image: url(./img/background.png); 
+    font-family: 'Architects Daughter', cursive, sans-serif;
 }
+
 header {
+    margin: 15px 0 0 0;
     text-align: center;  
 }
 
@@ -21,7 +23,7 @@ h1 {
 .navbar ul {
     display: flex;
     list-style-type: none; 
-    width: 459px;
+    width: 530px;;
     justify-content: space-between;
 }
 
