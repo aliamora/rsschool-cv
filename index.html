@@ -5,46 +5,78 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
-    <title>Resume</title>
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,500&display=swap" rel="stylesheet">
+    <title>CV</title>
 </head>
 <body>
-    <header>
-        <img class="picture" src="img/photo.jpg" alt="myPhoto">
-        <h1>Alia Mora</h1>
-    </header>
-        <h2>Contact info:</h2>
-        <nav class="navbar">
-            <ul>
-                <li><a href="mailto:mayak.asd@gmail.com">Gmail</a></li>
-                <li><a href="https://t.me/aliamor/">Telegram</a></li>
-                <li><a href="https://www.facebook.com/alinmoraa/">facebook</a></li>
-                <li><a href="https://github.com/aliamora">GitHub</a></li>
-            </ul>
-        </nav>
-    <main>
-        <img id="panda" src="./img/panda.png" src="panda">
-        <h2>Summary</h2>
-        <p> My goal is to become a good developer. It is important for me to learn and develop in the field 
-            of information technology,  as well as learning new things from everywere. I heve a gread desire
-            to get experience in the field of IT.
-        </p>
-        <h2>Skills:</h2>
-        <ul>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>Basic JavaScript</li>
-            <li>Adobe Photoshop, After Effects, Premiere Pro, Figma</li>
-            <li>VSCode</li>
-        </ul>
-        <h2>Education:</h2>
-        <ul>
-            <li>GSMC, specialty (economist, commercial)</li>
-            <li>BSU, specialty (project management)</li>
-            <li>RS Shool 2020 (JavaScript/Front-end Course) - Present Day</li>
-        </ul>
-        <h2>English Level</h2>
-        <p>Pre-Intermediate - A2</p>
+	<main>
+		<section class="glass">
+			<div class="dashboard">
+				<div class="user">
+					<img src="img/photo.png" alt="photo">
+					<h3>Alia Mora</h3>
+					<p>Junior WebDev</p>
+				</div>
+				<ul class="contact__info">
+					<li class="list__link">
+						<a href="mailto:mayak.asd@gmail.com"><img src="img/icons/gmail.png"><h3>Gmal</h3></a>
+					</li>
+					<li class="list__link">
+						<a href="https://t.me/aliamor/"><img src="img/icons/telegram.png"><h3>Telegram</h3></a>
+					</li>
+					<li class="list__link">
+						<a href="https://www.facebook.com/alinmoraa/"><img src="img/icons/facebook.png"><h3>Facebook</h3></a>
+					</li>
+					<li class="list__link">
+						<a href="https://github.com/aliamora"><img src="img/icons/github.png"><h3>GitHub</h3></a>
+					</li>
+				</ul>
+				<div class="eng">
+					<p>My English level - A2</p>
+					<img src="img/1.png" alt="british flag">
+				</div>
+			</div>
+			<div class="cards">
+				<div class="card">
+					<div class="card-info">
+						<h3 class="card-info_title">Summary</h3>
+						<p class="card-info_text">My goal is to become a good developer. It is important for me to learn and develop in the field of information technology, as well as learning new things from everywere. I heve a gread desire to get experience in the field of IT.</p>
+					</div>
+				</div>
+				<div class="card">
+					<div class="card-info">
+						<h3 class="card-info_title">Skills</h3>
+						<ul class="skills">
+							<li class="list__skills">HTML/CSS</li>
+							<li class="list__skills">Preprocessor Sass</li>
+							<li class="list__skills">Basic JavaScript</li>
+							<li class="list__skills">Figma, Adobe Photoshop, After Effects, Premiere Pro</li>
+							<li class="list__skills">Git</li>
+							<li class="list__skills">VSCode</li>
+						</ul>
+					</div>
+				</div>
+				<div class="card">
+					<div class="card-info">
+						<a href="code.html">Code</a>
+					</div>
+				</div>
+				<div class="card">
+					<div class="card-info">
+						<h3 class="card-info_title">Education</h3>
+						<ul class="skills">
+							<li class="list__skills">2011-2013, Gomel state machine-building College, economist (commercial);</li>
+							<li class="list__skills">2014-2019, Belarusian State University, Faculty of Social and Cultural Communications, project management;</li>
+							<li class="list__skills">2020 - Present time, Sukhoi State Technical University of Gomel, Life Long Learning Institute, web designer (programmer);</li>
+							<li class="list__skills">RS School 2021 - Present time, JavaScript/Front-end Course.</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section>
     </main>
+    <div class="circle__one"></div>
+    <div class="circle__two"></div>
 </body>
 </html>
