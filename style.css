@@ -18,7 +18,7 @@ p {
   opacity: 0.8;
 }
 
-h3 {
+h1, h3 {
   color: #a4c0e6;
   font-weight: 600;
   opacity: 0.8;
@@ -34,7 +34,6 @@ main {
 }
 
 .glass {
-  min-height: 80vh;
   width: 60%;
   background: linear-gradient(
       to left bottom,
